@@ -4,10 +4,12 @@ program: build
 build:
 	cmake -S . -B build
 
+.PHONY: git
+
 git:
-	git add .;
-	git commit -m 'sync';
-	git push;
+	git add -A
+	git diff --cached --quiet || git commit -m "sync: $(shell date '+%Y-%m-%d %H:%M:%S')"
+	git push
 
 r:
 	build/program
