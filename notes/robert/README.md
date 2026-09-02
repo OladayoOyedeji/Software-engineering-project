@@ -7,10 +7,14 @@
 ## class requirements
 - Team Work
 - OS, Network
-- - Network programming, socket programming
+- - Network programming
+- - Socket programming
 - - Management of memory
-- - Concurrency, paralellism
+- - Concurrency
+- - paralellism
 
 ## Books
 - Roger Pressman
 - Sommerville
+- PeopleWare Tom Demarco (Internet Archive)
+
